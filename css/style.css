@@ -158,6 +158,7 @@ ul {
 
 .content-two {
     background-color: #E5E7EB;
+    padding: 50px 30%;
 }
 
 .quote {
@@ -166,6 +167,11 @@ ul {
     font-weight: 300;
     color: #1F2937;
     
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: 700;
 }
 
 
