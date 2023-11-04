@@ -23,7 +23,7 @@ body {
     color: inherit;
 }
 
-.hero-text, .header-list {
+.hero-text, .header-list, .cta-info, .cta-title {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -171,6 +171,46 @@ ul {
 
 .quote-author {
     text-align: end;
+    font-weight: 700;
+}
+
+/*content-three*/
+
+.content-three {
+    padding: 50px 20%;
+}
+
+.cta-group {
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.cta-content {
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e5e7eb;
+}
+
+.cta-info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.cta-button {
+    color: #e5e7eb;
+    padding: 5px 30px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
     font-weight: 700;
 }
 
