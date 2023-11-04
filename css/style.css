@@ -23,7 +23,7 @@ body {
     color: inherit;
 }
 
-.hero-text, .header-list, .cta-info, .cta-title {
+.hero-text, .header-list, .footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -48,10 +48,6 @@ ul {
 
 .blue-back{
     background-color: #3882f6;
-}
-
-.footer{
-
 }
 
 .header-top{
@@ -212,6 +208,11 @@ ul {
     align-items: center;
     font-size: 18px;
     font-weight: 700;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px 0 ;
 }
 
 
