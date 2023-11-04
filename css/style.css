@@ -95,9 +95,7 @@ ul {
     width: 50%;
 }
 
-.content-two {
-    background-color: #E5E7EB;
-}
+/*content-one*/
 
 .info {
     display: flex;
@@ -115,7 +113,7 @@ ul {
 .info-list {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
     justify-content: center;
 }
 
@@ -123,16 +121,43 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
+    text-align: center;
 
 }
 
 .info-image {
     border: 5px solid #3882f6;
     border-radius: 15px;
-    /* min-height: 100%;
-    max-width: 100%; */
+    width: 70%;
+    padding-top: 70%;
+    position: relative;
+}
+
+/*BEGIN - JUST WHILE A DIV INSTEAD IMG*/
+.info-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-image-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*END - JUST WHILE A DIV INSTEAD IMG*/
+
+/*content-two*/
+
+.content-two {
+    background-color: #E5E7EB;
 }
 
 .quote {
@@ -142,3 +167,7 @@ ul {
     color: #1F2937;
     
 }
+
+
+
+
