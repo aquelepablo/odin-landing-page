@@ -210,6 +210,7 @@ ul {
     align-items: center;
     font-size: 18px;
     font-weight: 700;
+    white-space: nowrap
 }
 
 .footer{
